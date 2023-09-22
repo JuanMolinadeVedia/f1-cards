@@ -1,0 +1,84 @@
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  color: white;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+
+.card .content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card .current,
+.card .historic {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.current-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.card span {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.card .imgs {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .wins,
+.poles,
+.best {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}*/
+
+.card img {
+  width: 45%;
+  height: auto;
+}
+
+.card span:last-child {
+  margin-bottom: 0;
+}
+
+.current-container {
+  border: 1px solid #ccc;
+}
